@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 from dataclasses import dataclass, field
 from typing import Optional
+from datetime import datetime, timedelta, timezone
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 
@@ -83,9 +84,23 @@ def load_kb_docs(kb_dir: Path = DATA_DIR / "knowledge_base") -> list[KBDoc]:
         docs.append(KBDoc(filename=md_file.name, title=title, content=content, category=category))
     return docs
 
+def tickets_for_account(account_id: str, tickets: list[Ticket], days: int = 90) -> list[Ticket]:
+    """Returns tickets for this account created within the last `days` days,
+    relative to the most recent ticket in the dataset (since this is synthetic/mock
+    data, not live data — 'now' in the dataset's own timeline gives more realistic
+    results than using the actual current date)."""
+    account_tickets = [t for t in tickets if t.account_id == account_id]
+    if not account_tickets:
+        return []
 
-def tickets_for_account(account_id: str, tickets: list[Ticket]) -> list[Ticket]:
-    return [t for t in tickets if t.account_id == account_id]
+    all_dates = [datetime.fromisoformat(t.created_at.replace("Z", "+00:00")) for t in tickets]
+    reference_date = max(all_dates)
+    cutoff = reference_date - timedelta(days=days)
+
+    return [
+        t for t in account_tickets
+        if datetime.fromisoformat(t.created_at.replace("Z", "+00:00")) >= cutoff
+    ]
 
 
 if __name__ == "__main__":
