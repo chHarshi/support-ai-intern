@@ -1,0 +1,471 @@
+{
+  "generated_at": "2026-09-04T11:13:47.599765+00:00",
+  "total_cases": 14,
+  "passed": 14,
+  "failed": 0,
+  "average_score": 1.0,
+  "results": [
+    {
+      "case_id": "TKT-10000",
+      "task": "triage",
+      "score": 1.0,
+      "passed": true,
+      "checks": [
+        {
+          "name": "valid_urgency_value",
+          "passed": true,
+          "detail": "got 'P4'"
+        },
+        {
+          "name": "valid_category_value",
+          "passed": true,
+          "detail": "got 'Feature Request'"
+        },
+        {
+          "name": "has_substantive_reasoning",
+          "passed": true,
+          "detail": "len=343"
+        },
+        {
+          "name": "has_draft_response",
+          "passed": true,
+          "detail": "len=608"
+        },
+        {
+          "name": "no_template_artifacts",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "kb_doc_exists_in_dataset",
+          "passed": true,
+          "detail": "matched 'databridge-pro.md'"
+        },
+        {
+          "name": "no_fabricated_kb_urls",
+          "passed": true,
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "case_id": "TKT-10010",
+      "task": "triage",
+      "score": 1.0,
+      "passed": true,
+      "checks": [
+        {
+          "name": "valid_urgency_value",
+          "passed": true,
+          "detail": "got 'P4'"
+        },
+        {
+          "name": "valid_category_value",
+          "passed": true,
+          "detail": "got 'How-To'"
+        },
+        {
+          "name": "has_substantive_reasoning",
+          "passed": true,
+          "detail": "len=391"
+        },
+        {
+          "name": "has_draft_response",
+          "passed": true,
+          "detail": "len=928"
+        },
+        {
+          "name": "no_template_artifacts",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "kb_doc_exists_in_dataset",
+          "passed": true,
+          "detail": "matched 'cloudsync.md'"
+        },
+        {
+          "name": "no_fabricated_kb_urls",
+          "passed": true,
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "case_id": "TKT-10050",
+      "task": "triage",
+      "score": 1.0,
+      "passed": true,
+      "checks": [
+        {
+          "name": "valid_urgency_value",
+          "passed": true,
+          "detail": "got 'P2'"
+        },
+        {
+          "name": "valid_category_value",
+          "passed": true,
+          "detail": "got 'Bug'"
+        },
+        {
+          "name": "has_substantive_reasoning",
+          "passed": true,
+          "detail": "len=369"
+        },
+        {
+          "name": "has_draft_response",
+          "passed": true,
+          "detail": "len=828"
+        },
+        {
+          "name": "no_template_artifacts",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "kb_doc_exists_in_dataset",
+          "passed": true,
+          "detail": "matched 'authentication-sso.md'"
+        },
+        {
+          "name": "no_fabricated_kb_urls",
+          "passed": true,
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "case_id": "TKT-10100",
+      "task": "triage",
+      "score": 1.0,
+      "passed": true,
+      "checks": [
+        {
+          "name": "valid_urgency_value",
+          "passed": true,
+          "detail": "got 'P4'"
+        },
+        {
+          "name": "valid_category_value",
+          "passed": true,
+          "detail": "got 'How-To'"
+        },
+        {
+          "name": "has_substantive_reasoning",
+          "passed": true,
+          "detail": "len=356"
+        },
+        {
+          "name": "has_draft_response",
+          "passed": true,
+          "detail": "len=1073"
+        },
+        {
+          "name": "no_template_artifacts",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "kb_doc_exists_in_dataset",
+          "passed": true,
+          "detail": "matched 'securevault.md'"
+        },
+        {
+          "name": "no_fabricated_kb_urls",
+          "passed": true,
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "case_id": "TKT-10200",
+      "task": "triage",
+      "score": 1.0,
+      "passed": true,
+      "checks": [
+        {
+          "name": "valid_urgency_value",
+          "passed": true,
+          "detail": "got 'P4'"
+        },
+        {
+          "name": "valid_category_value",
+          "passed": true,
+          "detail": "got 'Feature Request'"
+        },
+        {
+          "name": "has_substantive_reasoning",
+          "passed": true,
+          "detail": "len=331"
+        },
+        {
+          "name": "has_draft_response",
+          "passed": true,
+          "detail": "len=583"
+        },
+        {
+          "name": "no_template_artifacts",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "kb_doc_exists_in_dataset",
+          "passed": true,
+          "detail": "matched 'workflowengine.md'"
+        },
+        {
+          "name": "no_fabricated_kb_urls",
+          "passed": true,
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "case_id": "adversarial_vague_ticket",
+      "task": "triage",
+      "score": 1.0,
+      "passed": true,
+      "checks": [
+        {
+          "name": "valid_urgency_value",
+          "passed": true,
+          "detail": "got 'P4'"
+        },
+        {
+          "name": "valid_category_value",
+          "passed": true,
+          "detail": "got 'Bug'"
+        },
+        {
+          "name": "has_substantive_reasoning",
+          "passed": true,
+          "detail": "len=321"
+        },
+        {
+          "name": "has_draft_response",
+          "passed": true,
+          "detail": "len=602"
+        },
+        {
+          "name": "no_fabricated_kb_urls",
+          "passed": true,
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "case_id": "adversarial_unknown_product",
+      "task": "triage",
+      "score": 1.0,
+      "passed": true,
+      "checks": [
+        {
+          "name": "valid_urgency_value",
+          "passed": true,
+          "detail": "got 'P2'"
+        },
+        {
+          "name": "valid_category_value",
+          "passed": true,
+          "detail": "got 'Bug'"
+        },
+        {
+          "name": "has_substantive_reasoning",
+          "passed": true,
+          "detail": "len=330"
+        },
+        {
+          "name": "has_draft_response",
+          "passed": true,
+          "detail": "len=1093"
+        },
+        {
+          "name": "no_fabricated_kb_urls",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "kb_doc_exists_in_dataset",
+          "passed": true,
+          "detail": "matched 'cloudsync.md'"
+        }
+      ]
+    },
+    {
+      "case_id": "ACC-3336",
+      "task": "account_brief",
+      "score": 1.0,
+      "passed": true,
+      "checks": [
+        {
+          "name": "has_exec_summary",
+          "passed": true,
+          "detail": "~4 sentences, len=474"
+        },
+        {
+          "name": "has_talking_points",
+          "passed": true,
+          "detail": "count=5"
+        },
+        {
+          "name": "quotes_are_verbatim",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "arr_figure_consistent",
+          "passed": true,
+          "detail": "$500,000 matches ARR $500,000"
+        }
+      ]
+    },
+    {
+      "case_id": "ACC-3033",
+      "task": "account_brief",
+      "score": 1.0,
+      "passed": true,
+      "checks": [
+        {
+          "name": "has_exec_summary",
+          "passed": true,
+          "detail": "~4 sentences, len=416"
+        },
+        {
+          "name": "has_talking_points",
+          "passed": true,
+          "detail": "count=5"
+        },
+        {
+          "name": "quotes_are_verbatim",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "arr_figure_consistent",
+          "passed": true,
+          "detail": "$120,000 matches ARR $120,000"
+        }
+      ]
+    },
+    {
+      "case_id": "ACC-7893",
+      "task": "account_brief",
+      "score": 1.0,
+      "passed": true,
+      "checks": [
+        {
+          "name": "has_exec_summary",
+          "passed": true,
+          "detail": "~3 sentences, len=373"
+        },
+        {
+          "name": "has_talking_points",
+          "passed": true,
+          "detail": "count=5"
+        },
+        {
+          "name": "quotes_are_verbatim",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "arr_figure_consistent",
+          "passed": true,
+          "detail": "$24,000 matches ARR $24,000"
+        }
+      ]
+    },
+    {
+      "case_id": "ACC-4654",
+      "task": "account_brief",
+      "score": 1.0,
+      "passed": true,
+      "checks": [
+        {
+          "name": "has_exec_summary",
+          "passed": true,
+          "detail": "~4 sentences, len=453"
+        },
+        {
+          "name": "has_talking_points",
+          "passed": true,
+          "detail": "count=5"
+        },
+        {
+          "name": "quotes_are_verbatim",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "arr_figure_consistent",
+          "passed": true,
+          "detail": "$96,000 matches ARR $96,000"
+        }
+      ]
+    },
+    {
+      "case_id": "ACC-4610",
+      "task": "account_brief",
+      "score": 1.0,
+      "passed": true,
+      "checks": [
+        {
+          "name": "has_exec_summary",
+          "passed": true,
+          "detail": "~5 sentences, len=434"
+        },
+        {
+          "name": "has_talking_points",
+          "passed": true,
+          "detail": "count=5"
+        },
+        {
+          "name": "quotes_are_verbatim",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "arr_figure_consistent",
+          "passed": true,
+          "detail": "$48,000. matches ARR $48,000"
+        }
+      ]
+    },
+    {
+      "case_id": "adversarial_no_tickets",
+      "task": "account_brief",
+      "score": 1.0,
+      "passed": true,
+      "checks": [
+        {
+          "name": "has_exec_summary",
+          "passed": true,
+          "detail": "~5 sentences, len=408"
+        },
+        {
+          "name": "has_talking_points",
+          "passed": true,
+          "detail": "count=5"
+        },
+        {
+          "name": "quotes_are_verbatim",
+          "passed": true,
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "case_id": "adversarial_nonexistent_account",
+      "task": "account_brief",
+      "score": 1.0,
+      "passed": true,
+      "checks": [
+        {
+          "name": "raises_valueerror_on_bad_id",
+          "passed": true,
+          "detail": "raised ValueError as expected"
+        }
+      ]
+    }
+  ]
+}
